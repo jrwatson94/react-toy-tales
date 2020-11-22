@@ -11,6 +11,7 @@ class App extends React.Component{
   state = {
     display: false
   }
+  
 
   handleClick = () => {
     let newBoolean = !this.state.display
